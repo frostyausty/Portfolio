@@ -7,7 +7,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  color: var(--lightblue);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main {
+  margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+
+:root {
+  --primary: #36213e;
+  --secondary: #554971;
+  --tertiary: #63768D;
+  --blue: #8AC6D0;
+  --lightblue: #B8F3FF;
+}
+
+header {
+  background: var(--primary);
+}
+
+header a {
+  color: var(--blue);
+}
+
+button {
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+  color: var(--lightblue);
+}
+
+li {
+  list-style: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav  li {
+  cursor: pointer;
 }
