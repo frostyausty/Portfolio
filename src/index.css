@@ -28,6 +28,8 @@ main {
   --tertiary: #63768D;
   --blue: #8AC6D0;
   --lightblue: #B8F3FF;
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
 }
 
 header {
@@ -36,6 +38,10 @@ header {
 
 header a {
   color: var(--blue);
+}
+
+.title {
+  padding-left: 30px;
 }
 
 button {
@@ -61,4 +67,54 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+/* .mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+} */
+
+.nav-button {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
 }

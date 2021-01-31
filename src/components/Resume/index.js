@@ -3,7 +3,8 @@ import React from 'react';
 function Resume() {
     return (
         <section>
-            Add resume here
+            <h2>Resume</h2>
+            <p> Add resume here </p>
         </section>
     );
 }

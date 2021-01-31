@@ -3,22 +3,22 @@ import React from 'react';
 function Nav() {
 
     return (
-        <header>
-            <h1>
+        <header className="flex-row">
+            <h1 className="title">
                 Austin Price
             </h1>
             <nav>
-                <ul>
-                    <li>
+                <ul className="flex-row">
+                    <li className="nav-button">
                        <button>About me</button>
                     </li>
-                    <li>
+                    <li className="nav-button">
                         <button>Portfolio</button>
                     </li>
-                    <li>
+                    <li className="nav-button">
                         <button>Contact</button>
                     </li>
-                    <li>
+                    <li className="nav-button">
                         <button>Resume</button>
                     </li>
                 </ul>
