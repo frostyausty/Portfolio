@@ -133,13 +133,13 @@ nav  li {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
-
+/* 
 .project-img {
   width: 20%;
   height: 20%;
   margin-bottom: 20px;
   cursor: pointer;
-}
+} */
 
 footer {
   margin-right: 45%;
@@ -172,3 +172,95 @@ footer {
   background: #24292e;
   color: white;
 }
+
+.project-container {
+  display: grid;
+  grid-template-rows: 3(1fr);
+  grid-template-columns: 3(1fr);
+}
+
+.project {
+  display: grid;
+  grid-template-rows: 3;
+  grid-template-columns: 2(1fr);
+  padding-bottom: 15px;
+}
+
+.project a {
+  width: auto;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.project h3 {
+  grid-row: 1;
+  grid-column: 1/span 2;
+  text-align: center;
+}
+
+.gitlink {
+  grid-row: 3;
+  grid-column: 1;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.applink {
+  grid-row: 3;
+  grid-column: 2;
+  margin-left: 5px;
+}
+
+.project img{
+  grid-row: 2;
+  grid-column: 1/span 2;
+  position: center;
+  width: 40%;
+  margin: auto;
+  object-fit: fill;
+}
+
+.project-1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.project-2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.project-3 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.project-4 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.project-5 {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.project-6 {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.about-img {
+  display: block;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+

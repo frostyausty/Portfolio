@@ -51,12 +51,12 @@ function Portfolio() {
     return (
         <section>
             <h2>Projects</h2>
-            <div>
+            <div className = "project-container">
                 {projects.map((project, i) => (
-                    <div className="flex-row" key={project.title}>
-                        <h4>{project.title}</h4>
-                        <a href={project.github}>GitHub Repo</a>
-                        <a href={project.deploy}>Live application</a>
+                    <div className={`project project-${i+1}`} key={project.title}>
+                        <h3>{project.title}</h3>
+                        <a className ="gitlink" href={project.github}>GitHub Repo</a>
+                        <a className ="applink" href={project.deploy}>Live application</a>
                         <img src={require(`../../assets/projectPhotos/${project.file}.jpg`).default} 
                         alt={project.title}
                         className="project-img"
