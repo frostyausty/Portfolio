@@ -1,6 +1,7 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const sections = ["About", "Portfolio", "Contact", "Resume"];
 
     return (
         <header className="flex-row">
@@ -9,18 +10,16 @@ function Nav() {
             </h1>
             <nav>
                 <ul className="flex-row">
-                    <li className="nav-button">
-                       <button>About me</button>
-                    </li>
-                    <li className="nav-button">
-                        <button>Portfolio</button>
-                    </li>
-                    <li className="nav-button">
-                        <button>Contact</button>
-                    </li>
-                    <li className="nav-button">
-                        <button>Resume</button>
-                    </li>
+                    {sections.map(section => (
+                        <li className="nav-button" key={section}>
+                            <a
+                                href={'#' + section.toLowerCase()}
+                                onClick={() => props.setCurrentSection(section)}
+                                className={props.currentSection === section ? 'nav-link active' : 'nav-link'}>
+                                {section}
+                            </a>
+                        </li>
+                    ))}
                 </ul>
             </nav>
         </header>
