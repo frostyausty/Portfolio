@@ -6,9 +6,7 @@
 This repository contains my portfolio in an SPA format that I built using React. 
 
 
-![React Portfolio](https://github.com/frostyausty/portfolio/blob/)
-
-
+![React Portfolio](https://github.com/frostyausty/Portfolio/blob/master/src/assets/files/screenshot.JPG)
 
 
 ## Link to deployed application
