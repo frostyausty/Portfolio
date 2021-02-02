@@ -264,3 +264,15 @@ footer {
 
 }
 
+.contact-div {
+  padding: 7px;
+}
+
+.contact-message {
+  margin-right: 10px;
+  display: block;
+}
+
+.contact-email, .contact-name {
+  padding-right: 5px;
+}

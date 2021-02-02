@@ -37,16 +37,16 @@ function Contact() {
         <section>
             <h2 data-testid="h1tag">Contact me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
+                <div className="contact-div">
+                    <label htmlFor="name" className="contact-name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
+                <div className ="contact-div">
+                    <label htmlFor="email" className="contact-email">Email address:</label>
                     <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
+                <div className = "contact-div">
+                    <label htmlFor="message" className="contact-message">Message:</label>
                     <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 </div>
                 {errorMessage && (
