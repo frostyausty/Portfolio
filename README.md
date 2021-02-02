@@ -10,7 +10,7 @@ This repository contains my portfolio in an SPA format that I built using React.
 
 
 ## Link to deployed application
-https://frostyausty.github.io/portfolio
+https://frostyausty.github.io/Portfolio
 
 
 ## Link to GitHub Repo
