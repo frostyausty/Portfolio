@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0cfc2ae4.chunk.css",
+    "main.css": "/Portfolio/static/css/main.c75d6c02.chunk.css",
     "main.js": "/Portfolio/static/js/main.ac02f1b2.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.ac02f1b2.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c712f789.js",
@@ -10,7 +10,7 @@
     "static/js/3.81425ae4.chunk.js": "/Portfolio/static/js/3.81425ae4.chunk.js",
     "static/js/3.81425ae4.chunk.js.map": "/Portfolio/static/js/3.81425ae4.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.0cfc2ae4.chunk.css.map": "/Portfolio/static/css/main.0cfc2ae4.chunk.css.map",
+    "static/css/main.c75d6c02.chunk.css.map": "/Portfolio/static/css/main.c75d6c02.chunk.css.map",
     "static/js/2.d399efe2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d399efe2.chunk.js.LICENSE.txt",
     "static/media/24chains.jpg": "/Portfolio/static/media/24chains.2e7780e6.jpg",
     "static/media/AustinPriceResume.e71f609f.docx": "/Portfolio/static/media/AustinPriceResume.e71f609f.docx",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.c712f789.js",
     "static/js/2.d399efe2.chunk.js",
-    "static/css/main.0cfc2ae4.chunk.css",
+    "static/css/main.c75d6c02.chunk.css",
     "static/js/main.ac02f1b2.chunk.js"
   ]
 }
