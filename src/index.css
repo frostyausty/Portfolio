@@ -133,13 +133,12 @@ nav  li {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
-/* 
+
 .project-img {
-  width: 20%;
-  height: 20%;
-  margin-bottom: 20px;
+  width: 90%;
+  height: 75%;
   cursor: pointer;
-} */
+}
 
 footer {
   margin-right: 45%;

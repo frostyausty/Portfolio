@@ -55,8 +55,8 @@ function Portfolio() {
                 {projects.map((project, i) => (
                     <div className={`project project-${i+1}`} key={project.title}>
                         <h3>{project.title}</h3>
-                        <a className ="gitlink" href={project.github}>GitHub Repo</a>
-                        <a className ="applink" href={project.deploy}>Live application</a>
+                        <a className ="gitlink" target="_blank" href={project.github}>GitHub Repo</a>
+                        <a className ="applink" target="_blank" href={project.deploy}>Live application</a>
                         <img src={require(`../../assets/projectPhotos/${project.file}.jpg`).default} 
                         alt={project.title}
                         className="project-img"
