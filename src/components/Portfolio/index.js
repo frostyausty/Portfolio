@@ -5,10 +5,10 @@ function Portfolio() {
 
     const [projects] = useState([
         {
-            title: 'One Stop Job',
-            github: 'https://github.com/frostyausty/OneStopJob',
-            deploy: 'https://frostyausty.github.io/OneStopJob/',
-            file: 'onestopjob'
+            title: 'wordUp',
+            github: 'https://github.com/njderenne/wordUp',
+            deploy: 'https://fast-shelf-56121.herokuapp.com/',
+            file: 'wordUp'
         },
 
         {
@@ -16,6 +16,13 @@ function Portfolio() {
             github: 'https://github.com/MarynaPR/24-chains',
             deploy: 'https://dry-mesa-09626.herokuapp.com/',
             file: '24chains'
+        },
+
+        {
+            title: 'One Stop Job',
+            github: 'https://github.com/frostyausty/OneStopJob',
+            deploy: 'https://frostyausty.github.io/OneStopJob/',
+            file: 'onestopjob'
         },
 
         {
@@ -37,13 +44,6 @@ function Portfolio() {
             github: 'https://github.com/frostyausty/WorkDayScheduler',
             deploy: 'https://frostyausty.github.io/WorkDayScheduler/',
             file: 'workdayscheduler'
-        },
-
-        {
-            title: 'Run Buddy',
-            github: 'https://github.com/frostyausty/run-buddy',
-            deploy: 'https://frostyausty.github.io/run-buddy/',
-            file: 'runbuddy'
         }
 
     ])
