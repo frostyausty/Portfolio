@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9ba67375.chunk.css",
-    "main.js": "/Portfolio/static/js/main.dd9e687a.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.dd9e687a.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.5b10950f.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.5b10950f.js.map",
+    "main.css": "/Portfolio/static/css/main.0cfc2ae4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.ac02f1b2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.ac02f1b2.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.c712f789.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c712f789.js.map",
     "static/js/2.d399efe2.chunk.js": "/Portfolio/static/js/2.d399efe2.chunk.js",
     "static/js/2.d399efe2.chunk.js.map": "/Portfolio/static/js/2.d399efe2.chunk.js.map",
-    "static/js/3.028218c7.chunk.js": "/Portfolio/static/js/3.028218c7.chunk.js",
-    "static/js/3.028218c7.chunk.js.map": "/Portfolio/static/js/3.028218c7.chunk.js.map",
+    "static/js/3.81425ae4.chunk.js": "/Portfolio/static/js/3.81425ae4.chunk.js",
+    "static/js/3.81425ae4.chunk.js.map": "/Portfolio/static/js/3.81425ae4.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.9ba67375.chunk.css.map": "/Portfolio/static/css/main.9ba67375.chunk.css.map",
+    "static/css/main.0cfc2ae4.chunk.css.map": "/Portfolio/static/css/main.0cfc2ae4.chunk.css.map",
     "static/js/2.d399efe2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d399efe2.chunk.js.LICENSE.txt",
     "static/media/24chains.jpg": "/Portfolio/static/media/24chains.2e7780e6.jpg",
     "static/media/AustinPriceResume.e71f609f.docx": "/Portfolio/static/media/AustinPriceResume.e71f609f.docx",
@@ -19,12 +19,13 @@
     "static/media/onestopjob.jpg": "/Portfolio/static/media/onestopjob.4e567f07.jpg",
     "static/media/runbuddy.jpg": "/Portfolio/static/media/runbuddy.e7615a3e.jpg",
     "static/media/socialnetworkapi.jpg": "/Portfolio/static/media/socialnetworkapi.fc5cef9e.jpg",
+    "static/media/wordUp.jpg": "/Portfolio/static/media/wordUp.28a277af.jpg",
     "static/media/workdayscheduler.jpg": "/Portfolio/static/media/workdayscheduler.cb55a0e8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b10950f.js",
+    "static/js/runtime-main.c712f789.js",
     "static/js/2.d399efe2.chunk.js",
-    "static/css/main.9ba67375.chunk.css",
-    "static/js/main.dd9e687a.chunk.js"
+    "static/css/main.0cfc2ae4.chunk.css",
+    "static/js/main.ac02f1b2.chunk.js"
   ]
 }
